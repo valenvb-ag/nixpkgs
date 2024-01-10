@@ -90104,10 +90104,10 @@ in
   pnpm = nodeEnv.buildNodePackage {
     name = "pnpm";
     packageName = "pnpm";
-    version = "8.10.5";
+    version = "8.14.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/pnpm/-/pnpm-8.10.5.tgz";
-      sha512 = "nBYfQz2FVRxY8bOhCxjMPfcrWgLSyu5lZswFtvIK3e+UfnldkMOQM7+S3lUXfq1p2H9iqdqtyR56LjtY9JNToA==";
+      url = "https://registry.npmjs.org/pnpm/-/pnpm-8.14.0.tgz";
+      sha256 = "sha256-nOv2Gr2D9oF3spSE2nLal1E5DqrUbfwwctJmv7sbp78=";
     };
     buildInputs = globalBuildInputs;
     meta = {
